@@ -1,0 +1,33 @@
+// *header
+.header{
+    padding-top: 31px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000000;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_list{
+    display: flex;
+    column-gap: 82px;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    .menu_link{
+        font-family: var(--base-font);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%; /* 24px */
+        color: #323232;
+        text-align: center;
+        transition: color 1s ease;
+        &:hover{
+            color: #6d8a6a;
+        }
+    }
+}
+.nav_mobile{
+    display: none;
+}

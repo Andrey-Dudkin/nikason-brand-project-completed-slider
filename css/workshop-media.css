@@ -1,0 +1,74 @@
+@media(max-width: 1120px){
+    /* *reviews */
+    .container_reviews {
+        max-width: 1198px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .reviews_container{
+        display: none;
+    }
+    .slider{
+        display: block;
+    }
+}
+@media(max-width: 769px){
+    /* *workshop hero */
+    .workshop_hero{
+        margin-top: 40px;
+        margin-bottom: 109px;
+    }
+
+    /* *our advantages */
+    .our_advantages_title{
+        margin-bottom: 60px;
+    }
+    .our_advantages_container{
+        row-gap: 40px;
+    }
+    
+    /* *production stages */
+    .production_stages_container{
+        justify-content: center;
+    }
+    .stage_item {
+        padding: 3px 19px 20px 21px;
+    }
+    
+    /* *submit your application */
+    .submit_your_application{
+        padding-bottom: 150px;
+    }
+}
+@media(max-width: 450px){
+    /* *workshop hero */
+    .workshop_hero_container{
+        text-align: left;
+        padding-top: 177px;
+    }
+    .workshop_hero_before_title{
+        margin-bottom: 30px;
+    }
+    .workshop_hero_title{
+        margin-bottom: 3px;
+    }
+    .workshop_hero_title_company{
+        margin-bottom: 60px;
+    }
+    
+    /* *production stages */
+    .production_stages_title{
+        margin-bottom: 60px;
+    }
+    
+    /* *reviews */
+    .reviews_title{
+        margin-bottom: 60px;
+    }
+
+    /* *submit your application */
+    .submit_your_application_title{
+        max-width: 287px;
+        margin-bottom: 60px;
+    }
+}

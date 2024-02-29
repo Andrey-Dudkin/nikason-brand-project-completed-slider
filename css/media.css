@@ -1,0 +1,264 @@
+@media(max-width: 1320px){
+    /* *hero */
+    .hero{
+        margin-top: 70px;
+    }
+    .hero_container{
+        flex-direction: column;
+        align-items: center;
+        border: 0;
+    }
+    .hero_image{
+        order: 2;
+    }
+    .hero_text{
+        text-align: center;
+    }
+    .hero_social{
+        padding: 0;
+        justify-content: center;
+        padding: 50px 0;
+    }
+
+    /* *about owner */
+    .about_owner_background{
+        background-color: transparent;
+    }
+    .about_owner_container{
+        flex-direction: column;
+    }
+    .about_owner_image{
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    /* *services */
+    .block_custom_furniture_container,
+    .block_masster_classes_container{
+        flex-direction: column;
+    }
+    .services_image{
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .services_content {
+        padding-bottom: 110px;
+    }
+}
+@media(max-width: 1025px){
+    /* *what we do */
+    .what_we_do_container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* *footer */
+    .footer_container{
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
+    .info_about_company_text{
+        text-align: center;
+    }
+    .menu_fotter{
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+    .additional_info_list{
+        text-align: center;
+        padding: 0;
+    }
+    .social{
+        text-align: center;
+        padding: 0;
+    }
+}
+@media(max-width: 769px){
+    /* *header */
+    .header{
+        border: none;
+    }
+    .nav{
+        display: none;
+    }
+      /* *burger menu */
+      .burger_menu_button{
+        display: block;
+        width: 68px;
+        height: 12px;
+        position: absolute;
+        top: 32px;
+        right: 38px;
+    }
+    .burger_menu_icon_container{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .burger_menu_icon{
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #57463a;
+        transition: background-color 300ms ease-in;
+    }
+    .burger_menu_icon::before,
+    .burger_menu_icon::after{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #57463a;
+        position: absolute;
+        transition: background-color 300ms ease-in;
+    }
+    .burger_menu_icon::before{
+        top: 0px;
+    }
+    .burger_menu_icon::after{
+        bottom:  0px;
+    }
+    .burger_menu_icon.burger_menu_icon_active{
+        background-color: transparent;    
+    }
+    .burger_menu_icon.burger_menu_icon_active::before{
+        transform: rotate(-45deg);
+        top: 50%;
+    }
+    .burger_menu_icon.burger_menu_icon_active::after{
+        transform: rotate(45deg);
+        bottom: 36%;
+    }
+
+    /* *nav mobile */
+    .nav_mobile{
+        display: block;
+    }
+    .nav_mobile_container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav_mobile_menu{
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        min-height: 100px;
+        background-color: #d7e3d5;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 15px 0 15px 15px;
+        margin-top: -400px;
+        transition: margin-top 1s ease;
+    }
+    .menu_list{
+        flex-direction: column;
+    }
+    .open_menu{
+        margin-top: 0;
+    }
+
+    .padding_section{
+        padding-bottom: 90px;
+    }
+
+      /* *hero */
+      .hero_text{
+        text-align: left;
+    }
+      .hero_text .text_above_title{
+        max-width: 200px;
+        margin-bottom: 76px;
+      }
+      .hero_text .subtitle{
+        margin-bottom: 21px;
+      }
+      .hero_social{
+        padding: 0;
+        justify-content: flex-start;
+        padding-top: 77px;
+        padding-bottom: 40px;
+    }
+
+    /* *what we do */
+    .what_we_do_title{
+        max-width: 230px;
+        margin-bottom: 60px;
+    }
+
+    /* *production */
+    .production_title{
+        margin-bottom: 60px;
+    }
+
+    /* *about owner */
+    .about_owner_title{
+        max-width: 350px;
+        margin-bottom: 60px;
+    }
+    .about_owner_text .about_owner_heading{
+        margin-bottom: 4px;
+    }
+    .about_owner_text .about_owner_description{
+        margin-bottom: 30px;
+    }
+
+    /* *guarantee */
+    .guarantee{
+        padding-bottom: 150px;
+    }
+    .guarantee_title_mobile{
+        display: block;
+        margin-bottom: 60px;
+    }
+    .guarantee_title{
+        display: none;
+    }
+    .guarantee_description{
+        padding-top: 91px;
+    }
+    .guarantee_logo{
+        margin-bottom: 42px;
+    }
+}
+@media(max-width: 451px){
+    /* *footer */
+    .footer_container{
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 0;
+    }
+    .footer_container > div:nth-child(1) {
+        order: 1;
+      }
+    .footer_container > div:nth-child(4) {
+        order: -1;
+      }
+
+    .info_about_company_text,
+    .menu_fotter,
+    .additional_info_list,
+    .social{
+        text-align: left;
+    }
+    .social{
+        padding-bottom: 111px;
+    }
+    .menu_fotter{
+        padding-bottom: 53px;
+    }
+    .additional_info_list{
+        padding-bottom: 53px;
+    }
+    .info_about_company_text{
+        padding-bottom: 57px;
+    }
+}

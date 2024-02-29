@@ -1,0 +1,77 @@
+@media(max-width: 1120px){
+    /* *news about us */
+    .news_about_us_container{
+        display: none;
+    }
+    .slider{
+        display: block;
+    }
+}
+@media(max-width: 769px){
+    /* *about us hero */
+    .about_us_hero{
+        padding-bottom: 72px;
+    }
+    .about_us_hero_container{
+        padding-top: 93px;
+    }
+
+    /* *workshop philosophy */
+    .workshop_philosophy{
+        padding-bottom: 128px;
+    }
+
+    /* *submit your application */
+    .submit_your_application{
+        padding-bottom: 150px;
+    }
+}
+@media(max-width: 450px){
+    /* *about us hero */
+    .about_us_hero_title{
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .about_us_hero_title_company{
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .about_us_hero_image{
+        display: none;
+    }
+    .about_us_hero_mobile_images{
+        display: block;
+    }
+
+    /* *about founder */
+    .about_founder_image{
+        display: none;
+    }
+    .about_founder_image_mobile{
+        width: 100%;
+        display: block;
+    }
+    .about_founder_text .about_founder_text_name{
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+    .about_founder_text .about_founder_text_founder_workshop{
+        margin-bottom: 60px;
+    }
+
+    /* *workshop philosophy */
+    .workshop_philosophy_title{
+        margin-bottom: 60px;
+    }
+    
+    /* *news about us */
+    .news_about_us_text{
+        margin-bottom: 60px;
+    }
+
+    /* *submit your application */
+    .submit_your_application_title{
+        max-width: 287px;
+        margin-bottom: 60px;
+    }
+}

@@ -1,0 +1,53 @@
+@media(max-width: 769px){
+    /* *master classe hero */
+    .master_classe_hero{
+        margin-top: 40px;
+        margin-bottom: 77px;
+     }
+    .master_classe_hero_container{
+        row-gap: 62px;
+    }
+    .master_classe_title{
+        padding-top: 249px;
+    }
+
+    /* *our works */
+    .our_works_title{
+        margin-bottom: 77px;
+    }
+    .our_works_container{
+        margin-bottom: 70px;
+    }
+
+    /* *technologies */
+    .technologies_title{
+        margin-bottom: 86px;
+    }
+    .technologies_list .technologies_item .technologies_text{
+        margin-left: 83px;
+    }
+
+    /* *banner */
+    .banner{
+        margin-bottom: 90px;
+    }
+    .banner_title{
+        padding-top: 126px;
+    }
+
+    /* *master classes */
+    .master_classes_container {
+        column-gap: 20px;
+        row-gap: 87px;
+    }
+    .master_classes_title {
+        max-width: 282px;
+        margin-bottom: 155px;
+    }
+
+    /* *master classes carpentry */
+    .master_classes_carpentry_title{
+        margin-bottom: 40px;
+    }
+}
+

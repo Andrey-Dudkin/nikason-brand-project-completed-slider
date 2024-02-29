@@ -1,0 +1,143 @@
+// *about us hero
+.about_us_hero{
+    padding-bottom: 167px;
+}
+.about_us_hero_container{
+    padding-top: 120px;
+}
+.about_us_hero_title{
+    text-align: center;
+    margin-bottom: 19px;
+}
+.about_us_hero_title_company{
+    display: block;
+    font-family: var(--title-font);
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 400;
+    line-height: 120%; /* 57.6px */
+    color: #57463A;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.about_us_hero_image{
+    display: block;
+    margin: 0 auto;
+}
+.about_us_hero_mobile_images{
+    width: 100%;
+    display: none;
+}
+
+// *history company
+.history_company_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+.history_company_fact_number{
+    display: block;
+    font-family: var(--title-font);
+    font-size: 48px;
+    line-height: 150%; /* 72px */
+    color: #57463a;
+    margin-bottom: 30px;
+}
+.history_company_fact_text{
+    font-family: var(--base-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    color: #000000;
+}
+
+// *about founder
+.about_founder_container{
+    display: flex;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+.about_founder_image_mobile{
+    display: none;
+}
+.about_founder_text{
+    max-width: 660px;
+    .about_founder_text_name{
+        font-family: var(--title-font);
+        font-size: 24px;
+        line-height: 150%; /* 36px */
+        color: #000000;
+        margin-bottom: 20px;
+    }
+    .about_founder_text_founder_workshop{
+        font-family: var(--base-font);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        color: #000000;
+        margin-bottom: 70px;
+    }
+    .about_founder_text_description{
+        font-family: var(--base-font);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        color: #000000;
+        margin-bottom: 35px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+
+// *workshop philosophy
+.workshop_philosophy{
+    padding-bottom: 160px;
+}
+.workshop_philosophy_title{
+    margin-bottom: 70px;
+    span{
+        text-transform: uppercase;
+    }
+}
+.workshop_philosophy_text{
+    max-width: 695px;
+    font-family: var(--base-font);
+    font-size: 24px;
+    line-height: 150%; /* 36px */
+    color: #323232;
+    text-align: right;
+    margin-left: auto;
+}
+
+// *news about us
+.news_about_us_title{
+    margin-bottom: 20px;
+}
+.news_about_us_text{
+    font-family: var(--base-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    color: #323232;
+    margin-bottom: 100px;
+}
+
+.news_about_us_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 34px;
+}
+.image_01{
+    margin-right: 28px;
+}
+.image_02{
+    margin-right: 18px;
+}
+.image_04{
+    margin-left: 45px;
+}

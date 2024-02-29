@@ -1,0 +1,193 @@
+// *hero
+.master_classe_hero{
+    max-width: 100%;
+    min-height: 601px;
+    background: url("../images/master-classe-hero-background.jpg") center/ cover no-repeat;
+    margin-bottom: 160px;
+}
+.master_classe_hero_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 97px;
+}
+.master_classe_title{
+    font-family: var(--title-font);
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 400;
+    line-height: 120%;
+    color: #f6f6f6;
+    padding-top: 268px;
+}
+.link_watch-master-classes{
+    width: 245px;
+    min-height: 60px;
+    background-color: #f6f6f6;
+    font-family: var(--base-font);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #4c6d77;
+    text-align: center;
+    transition: color 1s ease,
+    background-color 1s ease;
+    &:hover{
+        color: #f6f6f6;
+        background-color: #4c6d77;
+    }
+}
+
+// *our works
+.our_works_title{
+    margin-bottom: 100px;
+}
+
+.our_works_container{
+    display: flex;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    justify-content: center;
+    margin-bottom: 102px;
+}
+.our_works_card{
+    width: clamp(139px, 20vw, 260px);
+}
+.our_works_text{
+    font-family: var(--base-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 102.99%; /* 16.478px */
+    color: #323232;
+    text-align: center;
+    margin-top: 25px;
+}
+.our_works_container_button{
+    text-align: center;
+}
+
+// *technologies
+.technologies_title{
+    margin-bottom: 100px;
+}
+.technologies_container{
+    display: flex;
+    justify-content: center;
+}
+.technologies_list{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 90px;
+    .technologies_item{
+        display: flex;
+        align-items: center;
+        .technologies_number{
+            width: 60px;
+            height: 60px;
+            background-color: #a1b29f;
+            border-radius: 50%;
+            font-family: var(--base-font);
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 150%; /* 36px */
+            color: #F6F6F6;
+            text-align: center;
+            padding-top: 12px;
+            position: absolute;
+        }
+        .technologies_text{
+            font-family: var(--base-font);
+            font-size: 18px;
+            line-height: 150%; /* 27px */
+            color: #000000;
+            margin-left: 103px;
+        }
+    }
+}
+.decoration_line{
+    width: 1px;
+    height: 90%;
+    background-color: #c4c4c4;
+    position: absolute;
+    top: 44px;
+    left: 28px;
+    z-index: -1;
+}
+
+// *banner
+.banner{
+    width: 100%;
+    min-height: 508px;
+    background: url("../images/banner-background.jpg") center/cover no-repeat;
+    margin-bottom: 160px;
+}
+.banner_title{
+    max-width: 950px;
+    font-family: var(--title-font);
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 400;
+    line-height: 120%;
+    color: #f6f6f6;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 182px;
+}
+
+// *master classes
+.master_classes_title{
+    margin-bottom: 100px;
+}
+.master_classes_container{
+    display: flex;
+    justify-content: center;
+    column-gap: 69px;
+    flex-wrap: wrap;
+    row-gap: 97px;
+    align-items: end;
+}
+.master_classes_card{
+    width: clamp(167px,20vw,240px);
+    .master_classes_image{
+        display: block;
+        margin: 0 auto;
+        margin-top: 23px;
+    }
+    .master_classes_text{
+        font-family: var(--base-font);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 150%; /* 27px */
+        color: #323232;
+        text-align: center;
+        margin-top: 23px;
+    }
+}
+
+// *master classes carpentry
+.master_classes_carpentry_title{
+    margin-bottom: 100px;
+}
+.master_classes_carpentry_container{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    margin: 0 auto;
+}
+.master_classes_carpentry_card{
+    .master_classes_carpentry_image{
+        display: block;
+        margin-bottom: 15px;
+    }
+    .master_classes_carpentry_text{
+        font-family: var(--base-font);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 150%; /* 27px */
+        color: #323232;
+        text-align: center;
+    }
+}

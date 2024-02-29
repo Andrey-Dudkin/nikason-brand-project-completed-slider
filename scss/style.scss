@@ -1,0 +1,110 @@
+@import "./_header.scss";
+@import "./index.scss";
+@import "./master-classes.scss";
+@import "./workshop.scss";
+@import "./about-us.scss";
+@import "./footer.scss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Tenor+Sans&display=swap');
+
+:root{
+    --base-font:'Open Sans', sans-serif;
+    --title-font:'Tenor Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--base-font);
+    font-weight: 300;
+    background-color: #f3efea;
+}
+.container{
+    max-width: 1198px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.padding_section{
+    padding-bottom: 160px;
+}
+.active_link{
+    border-bottom: 2px solid #6d8a6a;
+}
+.title{
+    font-family: var(--title-font);
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 400;
+    line-height: 120%; /* 57.6px */
+    color: #57463A;
+}
+.button_section{
+    width: 245px;
+    min-height: 60px;
+    background-color: #a1b29f;
+    font-family: var(--base-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    color: #f6f6f6;
+    transition: color 1s ease,
+    background-color 1s ease;
+    &:hover{
+        color: #a1b29f;
+        background-color: #ffffff;
+        border: 1px solid #a1b29f;
+    }
+}
+
+// *slider
+.slider{
+    display: none;
+    position: relative;
+    max-width: 387px;
+    height: 317px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider_container{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+.slider_container_images{
+    display: flex;
+    justify-content: center;
+}
+.slider_image{
+    display: none;
+    animation-name: animationSlider;
+    animation-duration: 1s;
+}
+.slider_image_active{
+    display: block;
+}
+.button_slider{
+    width: 17px;
+    height: 17px;
+    background-color: #f6f6f6;
+    border-radius: 50%;
+    padding-top: 3px;
+    margin-top: 120px;
+}
+.icon_arrow_prev{
+    transform: rotate(180deg);
+}
+@keyframes animationSlider{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+.hiden{
+    display: none;
+}
